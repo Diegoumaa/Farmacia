@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión - Farmacias San Benito</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Farmacias San Benito">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">CONÓCENOS</a></li>
+                    <li><a href="#">PRODUCTOS</a></li>
+                    <li><a href="#">SUCURSALES</a></li>
+                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a href="#">PROMOCIONES</a></li>
+                    <li><a href="#">BOLSA DE EMPLEO</a></li>
+                    <li><a href="index.html#contact">CONTÁCTANOS</a></li>
+                </ul>
+                <div class="login-button">
+                    <a href="register.html" class="register-button">Registrarse</a>
+                    <a href="login.html">Inicio de Sesión</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="login">
+            <form id="login-form">
+                <h2>Inicio de Sesión</h2>
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Ingresar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Farmacias San Benito. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
